@@ -1,0 +1,64 @@
+# ==============================================================================
+#  Military Tactical Network - Sample Map
+#  10 strategic bases across a theatre of operations
+#
+#  Edge format: from  to  distance  risk
+#    distance = estimated transit time in minutes under normal conditions
+#    risk     = threat level along the route, 0 (safe) - 10 (danger)
+#               0-3 SAFE | 4-6 CAUTION | 7-10 DANGER
+#  Graph is undirected (supply convoys run both ways).
+# ==============================================================================
+
+BASES 10
+HQ_Vajra
+Post_Trishul
+Post_Garuda
+Post_Shaurya
+Post_Akshat
+Outpost_Cheetah
+Checkpoint_Bhairav
+Relay_Kavach
+Sector_Drishti
+Watchtower_Netra
+
+DIRECTED 0
+
+EDGES
+# from  to  weight  risk
+# Edge weights are transit-minutes; coords are scaled so Euclidean <= min_weight(35)
+# --- Core command links -------------------------------------------------------
+0  1  45  2
+0  2  120  6
+0  4  80  3
+# --- Air & sea access ---------------------------------------------------------
+1  3  60  1
+1  5  95  5
+# --- Forward line connections --------------------------------------------------
+2  5  40  7
+2  6  75  8
+# --- Logistics hub links ------------------------------------------------------
+3  4  55  2
+3  7  110  4
+4  8  65  3
+# --- Outpost / observation network --------------------------------------------
+5  9  85  6
+6  7  50  9
+6  9  70  7
+# --- Rear-echelon supply chain ------------------------------------------------
+7  8  90  5
+8  9  35  1
+
+# Optional node coordinates for A* heuristic
+# Scaled to [0,25] so Euclidean distance <= 35 (min edge weight) — heuristic is admissible
+# format: nodeId  x  y
+COORDS
+0  12  12
+1  18  6
+2  5   18
+3  22  10
+4  14  18
+5  2   10
+6  1   22
+7  14  25
+8  22  22
+9  6   5

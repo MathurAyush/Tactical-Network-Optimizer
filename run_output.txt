@@ -1,0 +1,33 @@
+﻿[92m
+  +==============================================================+
+  |      MILITARY LOGISTICS & TACTICAL NETWORK OPTIMIZER        |
+  |                  Graph Algorithm Suite                       |
+  |         C++ Implementation  |  Strategic Command            |
+  +==============================================================+
+[0m
+  Auto-loading map.txt...
+  Loaded: 10 bases, 15 routes from 'map.txt'
+
+  [92m+============================================+[0m
+  [92m|       MAIN COMMAND CENTER                  |[0m
+  [92m+============================================+[0m
+  [92m|  Network: [0m10 bases, 15 routes            [92m|[0m
+  [92m+============================================+[0m
+  [92m|  [93m[1][0m[92m  Load / Build Network               |[0m
+  [92m|  [93m[2][0m[92m  Visualize Network                  |[0m
+  [92m|  [93m[3][0m[92m  Minimum Spanning Tree (MST)        |[0m
+  [92m|  [93m[4][0m[92m  Network Traversal (BFS / DFS)      |[0m
+  [92m|  [93m[5][0m[92m  Shortest Path Analysis             |[0m
+  [92m|  [93m[6][0m[92m  Maximum Flow Analysis              |[0m
+  [92m|  [93m[7][0m[92m  TSP Route Optimization             |[0m
+  [92m|  [93m[8][0m[92m  Network Resilience Analyzer        |[0m
+  [92m|  [93m[9][0m[92m  Mission Planner (TSP + Budget)     |[0m
+  [92m|  [93m[10][0m[92m Dynamic Map Editor                 |[0m
+  [92m|  [93m[11][0m[92m Mission Log (view / export)        |[0m
+  [92m|  [93m[12][0m[92m Run All Algorithms + Summary       |[0m
+  [92m|  [93m[0][0m[92m  Exit                               |[0m
+  [92m+============================================+[0m
+  Command:   Invalid input - enter a number between 0 and 12.
+  Command: 
+  [96m[EOF - session ended][0m
+

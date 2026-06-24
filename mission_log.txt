@@ -1,0 +1,7 @@
+[2026-06-08 12:15:10] Resilience-SimulateAttack | route=[Outpost_Cheetah<->Watchtower_Netra] ref=5 | attack simulated, BFS connectivity rechecked | 7ms
+[2026-06-08 12:15:52] MissionPlanner | start=1 visit=[6,8,4,2,3] budget=450 | distance=495 risk=34 withinBudget=no | 0ms
+[2026-06-08 12:16:41] Resilience-FullReport | ref=4 | 0 bridges, minCut=190 | 0ms
+[2026-06-20 13:36:49] MST-Kruskal | graph(10 bases) | MST weight=495 | 0ms
+[2026-06-20 13:45:43] MST-Kruskal | graph(10 bases) | MST weight=495 | 0ms
+[2026-06-20 14:35:02] Resilience-SimulateAttack | route=[Checkpoint_Bhairav<->Relay_Kavach] ref=2 | attack simulated, BFS connectivity rechecked | 4ms
+[2026-06-20 14:35:43] MaxFlow-EdmondsKarp | source=5 sink=2 | maxFlow=220 | 0ms
